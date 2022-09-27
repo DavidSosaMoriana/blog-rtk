@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 0.6em;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(29, 23, 16, 0.76);
+    border-radius: 100vw;
+    margin-block: 0.3em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(99, 61, 15, 0.76);
+    border: .25px solid rgb(34, 19, 1);
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(80, 51, 2, 0.76);
+}
+
 html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: #333;
